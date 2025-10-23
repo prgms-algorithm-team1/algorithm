@@ -14,4 +14,5 @@ def solution(N, stages):
             num[i] = (cnt/all_num)
             
         all_num = all_num - cnt
+        
     return sorted(num, key = lambda x : num[x], reverse = True)
